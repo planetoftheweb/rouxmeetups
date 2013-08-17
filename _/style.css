@@ -1,0 +1,219 @@
+body {
+  background: url('../images/misc/colorbars.png') top center repeat-x, #eee7d5;
+  background: ;
+  font-family: 'Merriweather', serif;
+  font-size: 62.5%;
+  line-height: 140%;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Bree Serif', serif;
+  font-weight: normal;
+  color: #586E75;
+  text-shadow: 1px 1px #FFF;
+}
+
+body {
+  font-size: 16px;
+  font-size: 1.2rem;
+  line-height: 160%;
+}
+/* =14px */
+
+h1 {
+  font-size: 2.2rem;
+  color: #CB4B16;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 1.7rem;
+  color: #CB4B16;
+}
+
+a {
+  text-decoration: underline;
+  color: #657B83;
+}
+
+#main h2 {
+  font-size: 1.5rem;
+  line-height: 100%;
+  margin: 20px 0 10px 0;
+  color: #D33682;
+}
+
+section#content h1:first-of-type {
+  margin-top: 20px;
+}
+
+aside article:first-of-type {
+  margin-top: 30px;
+}
+
+aside article:first-of-type h2 {
+  font-size: 1.8rem;
+  color: #268BD2;
+}
+
+aside article h2 {
+  font-size: 1.6rem;
+  margin-top: 30px;
+  border-bottom: 1px dotted #333;
+  margin-bottom: 5px;
+}
+
+aside p {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+aside img {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+header {
+  background: #EEE7D5;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+header #branding img {
+  width: 40%;
+  min-width: 360px;
+  margin: 20px 0;
+}
+
+header .socialmediaicons {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+}
+
+.socialmediaicons .title {
+  float: left;
+}
+
+.socialmediaicons ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+}
+
+.socialmediaicons ul li {
+  float: left;
+  margin-left: 5px;
+}
+
+.socialmediaicons ul li img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+section#hero {
+  width: 100%;
+  height: 400px;
+  background: url('../images/misc/seattle_skyline.jpg') center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  border-bottom: 10px solid #FDF5E3;
+  border-top: 20px solid #E6D6B0;
+}
+
+section#content {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section#content h1:first-of-type {
+  margin-top: 20px;
+}
+
+aside h2 {
+  color: #29A198;
+}
+
+section#content li {
+  font-size: 17px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  line-height: 140%;
+}
+
+footer {
+  background: url('../images/misc/colorbars.png') top center repeat-x, #586e75;
+  color: #EEE7D5;
+  width: 100%;
+  min-height: 200px;
+  margin: 20px 0 0 0;
+}
+
+footer section {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.nav .active {
+  line-height: 20px !important;
+}
+
+.small {
+  font-size: 1rem;
+  color: #268BD2;
+}
+
+.dotted {
+  border-bottom: 1px dotted #CCC;
+}
+
+section#content h3 {
+  line-height: 90%;
+  margin-bottom: 10px;
+}
+
+img.speaker {
+  width: 140px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 10px;
+}
+.speakers  h3 {
+  font-size: 1.6em;
+}
+
+.speakers .item {
+  border-bottom: 1px dashed #595AB7;
+  margin-top: 10px;
+}
