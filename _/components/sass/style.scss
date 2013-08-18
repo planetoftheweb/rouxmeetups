@@ -1,0 +1,246 @@
+@import "susy";
+@import url('http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,700,900');
+
+$total-columns  : 12;             // a 12-column grid
+$column-width   : 4em;            // each column is 4em wide
+$gutter-width   : 1em;            // 1em gutters between columns
+$grid-padding   : $gutter-width;  // grid-padding equal to gutters
+$show-grid-backgrounds  : true;
+
+$font-body      :  Merriweather, serif;
+$font-headings  :  Bree Serif, serif;
+
+.container {
+  @include container;
+}
+
+//Solarized Palette
+$lightgray      : #819090;
+$gray           : #708284;
+$mediumgray     : #536870;
+$darkgray       : #475B62;
+$darkblue       : #0A2933;
+$darkerblue     : #042029;
+$paleryellow    : #FCF4DC;
+$paleyellow     : #EAE3CB;
+$yellow         : #A57706;
+$orange         : #BD3613;
+$red            : #D11C24;
+$pink           : #C61C6F;
+$purple         : #595AB7;
+$blue           : #2176C7;
+$green          : #259286;
+$yellowgreen    : #738A05;
+
+body {
+  background: url('../../images/misc/colorbars.png') top center repeat-x, #eee7d5;
+  font-family: $font-body;
+  font-size: 62.5%;
+  line-height: 140%;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-headings;
+  font-weight: normal;
+  color: $darkgray;
+  text-shadow: 1px 1px $paleyellow;
+}
+
+body {
+  font-size: 1.2rem;
+  line-height: 160%;
+}
+/* =14px */
+
+h1 {
+  font-size: 2.2rem;
+  color: $orange;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 1.7rem;
+  color: $orange;
+}
+
+a {
+  text-decoration: underline;
+  color: $mediumgray;
+}
+
+#main h2 {
+  font-size: 1.5rem;
+  line-height: 100%;
+  margin: 20px 0 10px 0;
+  color: $pink;
+}
+
+section#content h1:first-of-type {
+  margin-top: 20px;
+}
+
+aside article:first-of-type {
+  margin-top: 30px;
+}
+
+aside article:first-of-type h2 {
+  font-size: 1.8rem;
+  color: $blue;
+}
+
+aside article h2 {
+  font-size: 1.6rem;
+  margin-top: 30px;
+  border-bottom: 1px dotted #333;
+  margin-bottom: 5px;
+}
+
+aside p {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+aside img {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+header {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .branding {
+    width: 40%;
+    min-width: 360px;
+  }
+
+  .socialmediaicons {
+    width: 40%;
+    border: 1px solid #000
+  }
+}
+
+.socialmediaicons .title {
+  float: left;
+}
+
+.socialmediaicons ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+}
+
+.socialmediaicons ul li {
+  float: left;
+  margin-left: 5px;
+}
+
+.socialmediaicons ul li img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+section#hero {
+  width: 100%;
+  height: 400px;
+  background: url('../../images/misc/seattle_skyline.jpg') center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  border-bottom: 10px solid #FDF5E3;
+  border-top: 20px solid #E6D6B0;
+}
+
+section#content {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section#content h1:first-of-type {
+  margin-top: 20px;
+}
+
+aside h2 {
+  color: $blue;
+}
+
+section#content li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  line-height: 140%;
+}
+
+footer {
+  background: url('../../images/misc/colorbars.png') top center repeat-x, $darkgray;
+  color: $paleyellow;
+  width: 100%;
+  min-height: 200px;
+  margin: 20px 0 0 0;
+}
+
+footer section {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.nav .active {
+  line-height: 20px !important;
+}
+
+.small {
+  font-size: 1rem;
+  color: $blue;
+}
+
+.dotted {
+  border-bottom: 1px dotted $gray;
+}
+
+section#content h3 {
+  line-height: 90%;
+  margin-bottom: 10px;
+}
+
+img.speaker {
+  width: 140px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 10px;
+}
+.speakers  h3 {
+  font-size: 1.6em;
+}
+
+.speakers .item {
+  border-bottom: 1px dashed $purple;
+  margin-top: 10px;
+}

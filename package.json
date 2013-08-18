@@ -1,0 +1,14 @@
+{
+  "name": "rouxmeetups",
+  "version": "0.1.0",
+  "description": "The official website for Roux Academy Meetups",
+  "main": "gruntfile.js",
+  "author": "Ray Villalobos",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-compass": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.2",
+    "grunt-contrib-uglify": "~0.2.0",
+    "matchdep": "~0.1.2"
+  }
+}
