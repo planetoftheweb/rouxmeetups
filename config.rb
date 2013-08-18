@@ -6,4 +6,5 @@ sass_dir = '_/components/sass'
 images_dir = 'images'
 javascripts_dir = '_/js'
 relative_assets = true
-output_style = :compressed
+output_style = :nested
+line_comments = false
