@@ -1,9 +1,5 @@
 @import url('http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,700,900');
 
-.clearfix:before, .clearfix:after { content: " "; display: table; }
-.clearfix:after { clear: both; }
-.clearfix { *zoom: 1; }
-
 body {
   background: image-url('misc/colorbars.png') top center repeat-x, $paleyellow;
   font-family: $font-body;

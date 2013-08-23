@@ -70,19 +70,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     display: table;
     clear: both; }
 
-/* line 3, ../components/sass/_base.scss */
-.clearfix:before, .clearfix:after {
-  content: " ";
-  display: table; }
-
-/* line 4, ../components/sass/_base.scss */
-.clearfix:after {
-  clear: both; }
-
-/* line 5, ../components/sass/_base.scss */
-.clearfix {
-  *zoom: 1; }
-
 /* line 7, ../components/sass/_base.scss */
 body {
   background: url('../../images/misc/colorbars.png?1374467896') top center repeat-x, #eae3cb;
