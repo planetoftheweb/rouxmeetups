@@ -1,0 +1,48 @@
+// Speakers ------------------------------------
+.speakers {
+  img {
+    width: 120px;
+    border-radius: 10px;
+    float: left;
+    margin: {
+      right: 10px;
+      bottom: 10px;
+    }
+  }
+
+  h3 {
+    font-size: 1.8rem;
+    line-height: 60%;
+
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted $lightgray;
+    margin-bottom: 5px;
+  }
+
+  .item {
+    margin-top: 10px;
+  }
+}
+
+// Social Media Icons ----------------------------
+.socialmediaicons {
+  .title {
+    float: left;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    li {
+      float: left;
+      margin-left: 5px;
+      img {
+        width: 30px;
+        @include border-radius(50%);
+      } //img
+    }
+  }
+}

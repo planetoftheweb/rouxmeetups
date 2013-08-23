@@ -9,8 +9,14 @@ module.exports = function(grunt) {
     compass: {
       dev: {
         options: {
-          config: 'config.rb',
-          force: true
+          compress: true
+        }
+      }
+    },
+    uglify: {
+      dev: {
+        files: {
+          '_/js/script.js' : ['_/components/js/*.js']
         }
       }
     },
@@ -22,12 +28,11 @@ module.exports = function(grunt) {
       },
       /* watch and see if our javascript files change, or new packages are installed */
       js: {
-        files: ['_/componenet/js/*.js', 'components/js/*.js'],
-        tasks: ['uglify']
+        tasks: ['uglify:dev']
       },
       /* watch our files for change, reload */
       livereload: {
-        files: ['*.html', '_/css/*.css', '_/images/*', 'assets/js/{script.js}'],
+        files: ['*.html', '_/css/*.css', '_/images/*', '_/js/*.js'],
         options: {
           livereload: true
         }

@@ -7,4 +7,3 @@ images_dir = 'images'
 javascripts_dir = '_/js'
 relative_assets = true
 output_style = :nested
-line_comments = false
